@@ -1,0 +1,14 @@
+{
+  "name": "jtx-node-cli",
+  "version": "0.0.1",
+  "description": "test for jtx to learn node cli",
+  "main": "bin/jtx.js",
+  "author": "Monkey Jiao",
+  "license": "MIT",
+  "bin": {
+    "jtx": "bin/jtx.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
