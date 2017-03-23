@@ -5,6 +5,10 @@
   "main": "bin/jtx.js",
   "author": "Monkey Jiao",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttian99/jtx-node-cli.git"
+  },
   "bin": {
     "jtx": "bin/jtx.js"
   },
