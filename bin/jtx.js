@@ -22,7 +22,14 @@ program.parse(process.argv)      // 解析命令行参数
 
 
 var jtx = function() {
+    // Set env var for ORIGINAL cwd
+    // before anything touches it
+    process.env.INIT_CWD = process.cwd();
+    
     console.log('---- jtx test ----');
+    console.log(process.argv);
+    console.log(process.env.INIT_CWD);
+    
 }
 
 jtx();
